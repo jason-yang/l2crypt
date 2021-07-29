@@ -1,0 +1,41 @@
+{
+  "name": "l2crypt",
+  "version": "1.0.0",
+  "description": "Cryptography library for Lineage 2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jason-yang/l2crypt.git"
+  },
+  "keywords": [
+    "lineage 2",
+    "decoder",
+    "encoder"
+  ],
+  "author": "Jason Yang <jason-yang@live.ca>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jason-yang/l2crypt/issues"
+  },
+  "homepage": "https://github.com/jason-yang/l2crypt#readme",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/node": "^16.4.6",
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-json": "^3.0.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  }
+}
